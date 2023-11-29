@@ -1,0 +1,14 @@
+.confirm img{
+    height: 150px;
+    width: 150px;    
+    align-items: center;
+}
+.confirm {
+    padding-left: 45%;
+    padding-top: 200px;
+}
+.text p{
+    padding-left: 30%;
+    font-size: 50px;
+    padding-top: 30px;
+}

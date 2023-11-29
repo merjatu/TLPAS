@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(120deg, #2980b9, #8e44ad );
+    font-weight: bold;
+}
+
+
+.container{
+    background: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 40rem;
+    min-width: 40rem;
+    height: 24em;
+    margin: auto;
+    position: relative;
+    top: 10rem;
+    border-radius: 10px;
+
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-fields{
+    font-size: 20px;
+    display: block;
+    margin: 4rem;
+    margin-bottom: 2rem;
+   
+
+    height: 50px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border: none;
+    width: 80%;
+}
+.input-fields form{
+    padding: 0 40px;
+    box-sizing: border-box ;
+}
+
+form .input-fields{
+    padding: 0 5px;
+   
+    border-bottom: 2px solid #adadad;
+}
+
+.input-fields input{
+    height: 50px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.input-fields span{
+    color: #2691d9;
+}
+
+
+
+
+.input-fields input:focus ~ label,
+.input-fields input:valid ~ label{
+    top:-5px;
+    color: #2691d9;
+}
+
+#OTP{
+    display: none;
+}
+
+#submit{
+    display: none;
+}
+
+.extras{
+    margin-left: 4rem;
+    padding-top: 1rem;
+}
+
+#otp-timer{
+    display: none;
+    font-size: 10px;
+    margin-top: 8px;
+    margin-left: 4rem;
+}
+#resend{
+    display: none;
+    font-size: 16px;
+    margin-top: 8px;
+    /* margin-left: 4rem; */
+}
+
+
+/* ************button**************** */
+/* From uiverse.io */
+.btn button {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 2em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+    margin-left: 4rem;
+   }
+   
+   .btn button:active,
+   .btn button:hover {
+    outline: 0;
+   }
+   
